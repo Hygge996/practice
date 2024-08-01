@@ -1,5 +1,6 @@
 # 手写Promise
 [原文地址](https://github.com/yuanyuanbyte/Blog/issues/125)🚀
+<a href="https://github.com/yuanyuanbyte/Blog/issues/125" target="_blank" >原文地址</a>(打开新标签页)🚀
 ## 一、定义初始结构
 创建一个`myPromise`类
 ```javascript

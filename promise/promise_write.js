@@ -20,6 +20,14 @@ class myPromise {
       this.PromiseResult = reason;
     }
   }
+  then(onFulfilled, onRejected) {
+    if (this.PromiseState === myPromise.FULFILLED) {
+      onFulfilled(this.PromiseResult);
+    }
+    if (this.PromiseState === myPromise.REJECTED) {
+      onRejected(this.PromiseResult);
+    }
+  }
 };
 
 // 测试
