@@ -11,7 +11,9 @@ function dataSwitch(data) {
     var obj = {};
     Object.keys(data).forEach(function (item) {
         var sonItem = data[item];
+        
         Object.keys(sonItem).forEach(function (item2) {
+            
             if (!obj[item2]) {
                 obj[item2] = {};
             }
