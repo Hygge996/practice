@@ -16,6 +16,9 @@
 
 /**
  * 1. 给定字符串 `'Hello, World! How are you?'`，将所有的 `o` 替换为 `*` 。
+ * @param {string} value - 待处理的字符串
+ * @returns {string} 返回处理后的字符串，其中所有的 `o` 被替换为 `*`
+ * @note 笔记： 正则表达式 /g 的意思是 全局匹配（global）。具体来说就是当使用这个正则表达式进行匹配操作的时候，如果没有 `/g`，那么只会找到第一个匹配 `o` 的地方就停止搜索了。
  */
 const case1 = 'Hello, World! How are you?'
 function replace_first(value) {
@@ -23,5 +26,3 @@ function replace_first(value) {
   return formatVal
 }
 console.log(replace_first(case1));
-
-replace_first(case1)
