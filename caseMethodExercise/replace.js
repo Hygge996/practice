@@ -26,3 +26,13 @@ function replace_first(value) {
   return formatVal
 }
 console.log(replace_first(case1));
+
+/**
+ * 2. 给定字符串 `'The quick brown fox jumps over the lazy dog'`，将所有的单词 `the` （不区分大小写）替换为 `THE` 。
+ * @param {string} str2 - 原始字符串
+ * @returns {string} 返回处理后的字符串，其中所有的 `the` 被替换为 `THE`
+ * @note 使用正则表达式 `/the/gi`，其中 `g` 表示全局匹配，`i` 表示不区分大小写
+ */
+const case2 = 'The quick brown fox jumps over the lazy dog';
+let case2_res = case2.replace(/the/gi, 'THE');
+console.log(case2_res);
