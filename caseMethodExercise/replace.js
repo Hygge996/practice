@@ -86,6 +86,9 @@ console.log(case8_res);
 /**
  * 9. 给定字符串 `'The price is $100. It's too expensive.'`，将 `$100` 替换为 `$200` 。
  */
+let case9 = 'The price is $100. It\'s too expensive.';
+let case9_res = case9.replace(/\$100/, '$200')
+console.log(case9_res);
 /**
  * 10. 给定字符串 `'Today is Monday. Tomorrow is Tuesday.'`，将所有的 `Monday` 替换为 `Sunday` 。
  */
