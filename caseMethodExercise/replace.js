@@ -55,4 +55,38 @@ let case4 = 'JavaScript is awesome!';
 let case4_res = case4.replace('awesome', 'fantastic')
 console.log(case4_res);
 
+/**
+ * 5. 给定字符串 `'apple, banana, cherry'`，将第一个逗号 `,` 替换为 `:` 。
+ */
+let case5 = 'apple, banana, cherry';
+let case5_res = case5.replace(',', ':')
+console.log(case5_res);
+
+/**
+ * 6. 给定字符串 `'This is a test. This is another test.'`，将所有的 `.` 替换为 `!` 。
+ */
+let case6 = 'This is a test. This is another test.';
+let case6_res = case6.replace(/\./g, '!')
+console.log(case6_res);
+
+/**
+ * 7. 给定字符串 `'I love programming in Python and JavaScript'`，将 `Python` 替换为 `Java` 。
+ */
+let case7 = 'I love programming in Python and JavaScript';
+let case7_res = case7.replace('Python', 'Java');
+console.log(case7_res);
+
+/**
+ * 8. 给定字符串 `'red, green, blue, yellow'`，将最后一个逗号 `,` 替换为 `and` 。
+ */
+let case8 = 'red, green, blue, yellow';
+let case8_res = case8.replace(/,([^,]*)$/, ' and$1')
+console.log(case8_res);
+
+/**
+ * 9. 给定字符串 `'The price is $100. It's too expensive.'`，将 `$100` 替换为 `$200` 。
+ */
+/**
+ * 10. 给定字符串 `'Today is Monday. Tomorrow is Tuesday.'`，将所有的 `Monday` 替换为 `Sunday` 。
+ */
 
