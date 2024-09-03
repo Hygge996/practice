@@ -39,8 +39,20 @@ console.log(case2_res);
 
 /**
  * 3. 给定字符串 `'123,456,789'`，将所有的逗号 `,` 替换为 `-` 。
+ * @param {string} case3 - 原始字符串
+ * @returns {string} 将所有的逗号 `,` 替换为 `-`
  */
 let case3 = '123,456,789';
 let case3_res = case3.replace(/,/g, '-');
 console.log(case3_res);
+
+/**
+ * 4. 给定字符串 `'JavaScript is awesome!'`，将 `awesome` 替换为 `fantastic` 。
+ * @param {string} case3 - 原始字符串
+ * @returns {string} 将 `awesome` 替换为 `fantastic`
+ */
+let case4 = 'JavaScript is awesome!';
+let case4_res = case4.replace('awesome', 'fantastic')
+console.log(case4_res);
+
 
