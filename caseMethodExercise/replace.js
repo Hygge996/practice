@@ -36,3 +36,11 @@ console.log(replace_first(case1));
 const case2 = 'The quick brown fox jumps over the lazy dog';
 let case2_res = case2.replace(/the/gi, 'THE');
 console.log(case2_res);
+
+/**
+ * 3. 给定字符串 `'123,456,789'`，将所有的逗号 `,` 替换为 `-` 。
+ */
+let case3 = '123,456,789';
+let case3_res = case3.replace(/,/g, '-');
+console.log(case3_res);
+
